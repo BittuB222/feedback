@@ -38,6 +38,10 @@ const userSchema = new Schema({
     provider: {
         type: String,
         required: true
+    },
+    emailCredits: {
+        type: Number,
+        default: 0
     }
 });
 
