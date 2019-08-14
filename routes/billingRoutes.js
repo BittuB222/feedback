@@ -4,6 +4,7 @@
     # Description: Route handler for Billing - Stripe.
     # Copyright (c). All Rights Reserved.
 */
+
 const keys = require('../config/keys');
 const stripe = require('stripe')(keys.stripeSecretKey);
 
